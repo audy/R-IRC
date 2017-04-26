@@ -2,4 +2,4 @@
 
 source('R/irc.R')
 
-connect()
+connect('irc.freenode.net', 6667, 'hadley-botham')
