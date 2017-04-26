@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 ping <- function() { "PONG :ingis\n" }
 
 sendmsg <- function(chan, msg) { paste('PRIVMSG', chan, ':', msg, "\n") }
